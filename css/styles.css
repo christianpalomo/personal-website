@@ -19,3 +19,10 @@ p.name {
 .about-me {
   max-width: 500px;
 }
+.link-highlight {
+  font-weight: 700;
+  color: #9a29b9;
+  background-color: #ece1ff;
+  text-decoration: none;
+  border-radius: 5px;
+}
