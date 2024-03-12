@@ -16,9 +16,14 @@ p.name {
 }
 .nav-bar a {
   color: #9a29b9;
-  background-color: #ece1ff;
-  border-radius: 5px;
+  /* background-color: #ece1ff;
+  border-radius: 5px; */
   text-decoration: none;
+  border-bottom: 1px solid #9a29b9;
+}
+.nav-bar a:hover {
+  color: red;
+  border-bottom: red;
 }
 p.name {
   font-size: 20pt;
@@ -40,12 +45,18 @@ p.name {
   text-decoration: none;
   color: black;
 }
+.contact-me a:hover {
+  color: #9a29b9;
+}
 .link-highlight {
   font-weight: 700;
   color: #9a29b9;
   background-color: #ece1ff;
   text-decoration: none;
   border-radius: 5px;
+}
+.link-highlight:hover {
+  color: red;
 }
 /* mobile platform settings */
 @media (max-width: 480px) {
