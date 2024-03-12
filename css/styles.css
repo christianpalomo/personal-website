@@ -9,12 +9,14 @@ body {
   /* position: fixed; */
   display: flex;
   gap: 1rem;
+  margin-top: 10;
+  margin-bottom: 10px;
 }
 p.name {
   font-size: 20pt;
 }
 .profile-pic img {
-  height: 150px;
+  height: 200px;
 }
 .about-me {
   max-width: 500px;
@@ -25,4 +27,18 @@ p.name {
   background-color: #ece1ff;
   text-decoration: none;
   border-radius: 5px;
+}
+/* mobile platform settings */
+@media (max-width: 480px) {
+  body {
+    background-color: #202224;
+  }
+  p {
+    color: rgba(255, 255, 255, 0.792);
+  }
+  .profile-pic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
