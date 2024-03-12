@@ -1,0 +1,21 @@
+body {
+  font-family: "Darker Grotesque", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.nav-bar {
+  /* position: fixed; */
+  display: flex;
+  gap: 1rem;
+}
+p.name {
+  font-size: 20pt;
+}
+.profile-pic img {
+  height: 150px;
+}
+.about-me {
+  max-width: 500px;
+}
