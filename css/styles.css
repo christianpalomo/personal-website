@@ -1,17 +1,24 @@
 body {
-  background-image: url("images/seattle-skyline.jpg");
   font-family: "Darker Grotesque", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
 }
-
+p.name {
+  font-weight: 600;
+}
 .nav-bar {
   /* position: fixed; */
   display: flex;
   gap: 1rem;
   margin-top: 10;
   margin-bottom: 10px;
+}
+.nav-bar a {
+  color: #9a29b9;
+  background-color: #ece1ff;
+  border-radius: 5px;
+  text-decoration: none;
 }
 p.name {
   font-size: 20pt;
@@ -21,6 +28,17 @@ p.name {
 }
 .about-me {
   max-width: 500px;
+}
+.contact-me {
+  display: flex;
+  gap: 1rem;
+  margin-top: 10;
+  margin-bottom: 10px;
+}
+.contact-me a {
+  font-size: 20pt;
+  text-decoration: none;
+  color: black;
 }
 .link-highlight {
   font-weight: 700;
@@ -41,5 +59,8 @@ p.name {
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+  .contact-me a {
+    color: rgba(255, 255, 255, 0.792);
   }
 }
